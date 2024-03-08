@@ -72,12 +72,6 @@ window.addEventListener("scroll", () => {
     })
     each()
   }
-  // else if (window.scrollY > 1546 && window.scrollY < 1700) {
-  //   let a = document.querySelectorAll(".overall-select")
-  //   a.forEach(element => {
-  //     element.style.transform = "translateX(-100rem)"
-  //   });
-  // }
   else if (window.scrollY > 1900 && window.scrollY < 2100) {
     let b = document.querySelectorAll(".all-plans")
     b.forEach(element => {
@@ -91,21 +85,6 @@ window.addEventListener("scroll", () => {
   }
 })
 
-// let image=document.querySelectorAll(".review-image")
-// const each_image=(async()=>{
-//   const firstimage=await setTimeout(() => {
-//     image[2].style.animation="upward 3s linear 0s";
-
-//   }, 1000);
-//   const secondimage=await setTimeout(() => {
-//     image[1].style.animation="upward 3s linear 0s";
-//   }, 4000);
-//   const thirdimage=await setTimeout(() => {
-//     image[0].style.animation="upward 3s linear 0s";
-//   }, 7000);
-//   console.log(firstimage,secondimage,thirdimage)
-// })
-// each_image()
 let counter = 0
 let image = document.querySelectorAll(".review-image")
 image.forEach((element, index) => {
@@ -190,26 +169,3 @@ forward.addEventListener("click", () => {
   })
 }
 })
-
-// let navbar=document.getElementById("navbar-components-2")
-// let home=document.getElementById("home")
-
-// if(window.innerWidth<1200){
-//   navbar.innerHTML=`<i class="fa-sharp fa-solid fa-bars" id="icon-1"></i>`
-//   let icon=document.getElementById("icon-1")
-// icon.addEventListener("click",()=>{
-//   let div=document.createElement("div")
-//   div.classList.add("box-1")
-//   div.innerHTML=`<li><a href="#home">Home</a></li>
-//   <li><a href="#plans">Plans</a></li>
-//   <li><a href="#whyus">Why US</a></li>`
-//   home.prepend(div)
-// })
-// }
-// else if(window.innerWidth>1200){
-//   navbar.innerHTML=` <a href="#home">Home</a>
-//   <a href="#programs">Programs</a>
-//   <a href="#whyus">Why Us</a>
-//   <a href="#plans">Plans</a>
-//   <a href="#Testimonials">Testimonials</a>`
-// }
